@@ -1,0 +1,153 @@
+
+
+  @media (max-width: 991.98px) {
+
+  }
+
+  @media (max-width: 767.98px) {
+ 
+   .header {
+    max-width: 100%;
+   }
+    .full-page{
+      width: 90%;
+     
+      top: 20px; 
+      left: 0px;
+      right: 20px;
+    }
+    .db-main-nav {
+      width: 100%;
+    }
+    .g-title span {
+      width: 50%;
+    }
+    .g-title h4 
+    {
+     
+      width: 50%;
+    }
+    .guides-list li {
+      height: auto;
+    }
+   
+    .dota-description-mechanics 
+    {
+   
+    width: 30%;
+    
+    }
+    .db-main-nav{
+      width: 80%;
+    }
+  
+    .guides-header
+    {
+      width: 90%;
+    }
+    .dota-ver
+    {
+      margin-right: 30px;
+     
+      font-size: 1.1rem;
+     
+      
+    }
+    .db-guides{
+width: 80%;
+
+    }
+    .db-nav span {
+      font-size: 17px;
+      width: 2vw;
+    }
+  
+    .database-guides{
+      width: 90%;
+    }
+ 
+  
+  .g-title a  {
+    
+    font-size: 15px;
+  }
+ 
+  .g-rating {
+    font-size: 15px;
+  }
+  .hero-card{
+    width: 50px;
+    height: 50px;
+  }
+  .guides-list li 
+    {
+      
+      display: flex;
+      align-content: center;
+    }
+.guides-list img {
+  
+  height: 30px;
+  width: 30px;
+}
+  }
+
+  @media (max-width: 575.98px) {
+   
+
+    .full-page
+    {
+    
+    max-width: 93%;
+    }
+   
+   
+
+    .dota-description-mechanics a {
+      font-size: 10px;
+    }
+   
+    .guides-header
+    {
+      width: 100%;
+    }
+ 
+    .db-guides{
+width: 100%;
+
+    }
+ 
+    .database-guides{
+      width: 100%;
+    }
+   .guides-list li 
+    {
+      display: flex;
+      align-content: center;
+    }
+ .g-title {
+  max-width: 100%;
+ }
+  .g-title a  {
+   
+    font-size: 15px;
+  }
+  .dota-ver
+  {
+    font-size: 15px;
+   
+    
+  }
+  .g-rating {
+    font-size: 15px;
+  }
+
+.guides-list img {
+  margin-right: 10px;
+
+  height: 25px;
+  width: 25px;
+}
+  }
+
+

@@ -1,0 +1,3 @@
+var Loader=new Class({Implements:[Options],options:{color:'#333',margin:'auto'},initialize:function(options){this.setOptions(options);this.selector='';this.tpl_loader=$('tpl-loader').get('html');this.loader.parent=this;},loader:{parent:null,block:function(element){var block=null;if(typeof element=='object'){block=element;}
+if(typeof element=='string'){block=$(element);this.selector=element;}
+return block;},on:function(element){var block=this.block(element);if(block){var html=Mustache.to_html(this.parent.tpl_loader,{color:this.parent.options.color,margin:this.parent.options.margin});block.set('html',html);}},off:function(element){var block=this.block(element);if(block){block.set('html','');}}}});

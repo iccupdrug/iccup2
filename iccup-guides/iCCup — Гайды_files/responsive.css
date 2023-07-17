@@ -1,9 +1,12 @@
 
 
   @media (max-width: 991.98px) {
- 
+    html {
+      width: 100%;
+    }
+
     .full-page {
-      width: 93%;
+      max-width: 92%;
      
     }
 
@@ -11,9 +14,13 @@
     max-width: 100%;
    }
 /*db-nav start */
-.db-main-nav {
-  text-align: center; /* Центрирование элементов по горизонтали */
+.full-page a.db-nav {
+  width: 22%;
+
+  font-size: 1rem;
+
 }
+
 
 .db-nav {
   display: inline-block; /* Выставляем элементы в одну линию */
@@ -22,7 +29,13 @@
 }
 
 
+.db-nav span {
+  font-size: 1rem;
+ 
 
+
+
+}
 
 /*db-nav end */
   
